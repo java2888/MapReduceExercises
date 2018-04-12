@@ -1,0 +1,139 @@
+Introduce & Reference (alt+shif+s :快捷 source; v:快捷Override; alt+shift+n,p (or c))
+Reference是参考出处,在参考的基础上,有些根据自己的理解写的.
+---------------------
+1.
+wordCount
+2.
+friends
+3.
+MaxTempEveryYear
+4.
+secondarySort
+1)
+hadoop二次排序、分组、排序和分区
+http://blog.csdn.net/do_what_you_can_do/article/details/53317772
+2)
+Hadoop二次排序及MapReduce处理流程实例详解
+http://blog.csdn.net/lzm1340458776/article/details/42875751
+5.
+package maxScoreEveryProvice
+1)
+首先先讲述第一个业务：求取每一个省份分数的最大值，这个业务涉及到了数据的去重与top one。
+2)
+接下来讲述第二个业务：求取每个省份分数的前三个最大值，这个业务涉及到了数据的去重与top k.
+http://blog.csdn.net/a2011480169/article/details/51077301
+6.
+1)
+如何通过map-reduce实现统计不同手机号用户的上网流量信息
+http://www.cnblogs.com/edisonchou/p/4288737.html
+2)
+7.
+package grandsonAndGrandpa_maRelation
+1)
+【Mapreduce】利用单表关联在父子关系中求解爷孙关系
+http://blog.csdn.net/yongh701/article/details/50622785
+2)
+MapReduce实现单表链接
+单表关联
+http://www.cnblogs.com/qiaoqianxiong/p/4986506.html
+8.
+package multiTableLink
+多表链接
+输入是两个文件，一个代表工厂表，包含工厂名列和地址编号列；另一个代表地址表，包含地址名列和地址编号列。
+要求从输入数据中找出工厂名和地址名的对应关系，输出"工厂名——地址名"表。
+http://www.cnblogs.com/qiaoqianxiong/p/4986940.html
+9.
+package joinUsingMapReduce
+hadoop 用MR实现join操作
+http://blog.csdn.net/bitcarmanlee/article/details/51863358
+10.
+1)
+package partitionerExample
+使用自定义Partitioner实现自定义分区,从而输出到过个文件
+http://www.cnblogs.com/codeOfLife/p/5452037.html
+2)
+package partitionerExample
+如何使用Hadoop的Partitioner
+http://qindongliang.iteye.com/blog/2043136
+3)
+package partitionerExample
+Hadoop Partitioner 实战详解
+有全国分省份的数据，我们经常需要将相同省份的数据输入到同一个文件中
+http://blog.csdn.net/bitcarmanlee/article/details/60137837
+11.
+package processMobileWebLog
+1)
+自定义类型处理手机上网日志
+SelfDefinedTypeProcessWebLog
+http://www.cnblogs.com/edisonchou/p/4288737.html
+2)
+自定义类型排序:将结果按照总流量的大小由大到小输出。
+SelfDefinedSortTypeProcessWebLog
+http://www.cnblogs.com/DarrenChan/p/6446154.html
+12.
+package groupExample
+1)
+SelfDefinedGroup
+自定义-Hadoop自定义分组Group
+https://blog.csdn.net/u011007180/article/details/52266062
+2)
+MapReduce-自定义比较器
+https://blog.csdn.net/doegoo/article/details/50384290
+13.
+1)
+Top K
+TopK问题应该是海量数据处理中应用最广泛的了，比如在海量日志数据处理中，对数据清洗完成之后统计某日访问网站次数最多的前K个IP。
+MapReduce TopK问题实际应用
+https://blog.csdn.net/lzm1340458776/article/details/43228191
+2)
+https://blog.csdn.net/doegoo/article/details/50343267
+14.
+package secondSort.tempSecondSort;
+MapReduce实现二次排序（温度年份排序）
+http://www.cnblogs.com/qiaoqianxiong/p/4991826.html
+15.
+温度排序
+计算1949-1955年，每年温度最高的时间
+http://blog.csdn.net/alex_bean/article/details/51504748
+16.
+共同粉丝
+利用mapReduce实现类似微博中查找共同粉丝的功能.
+求出哪些人两两之间有共同粉丝，及他俩的共同粉丝都是谁。
+1)
+http://www.cnblogs.com/DarrenChan/p/6754506.html
+2)
+https://blog.csdn.net/scgaliguodong123_/article/details/46005721
+17.
+package invertedSort;
+1)
+MapReduce实现倒排索引--写的不对
+http://www.cnblogs.com/qiaoqianxiong/p/4987086.html
+2)
+MapReduce实现倒排序索引--Combiner不错，但是reduce写的不对
+https://blog.csdn.net/ajax_jquery/article/details/22600363
+18.
+1)
+一个简单的分布式Grep
+https://blog.csdn.net/u010536377/article/details/50199045
+2)
+https://www.aliyun.com/zixun/content/2_6_1866564.html
+Hadoop-- 海量文件的分布式计算处理方案
+19.
+1)
+MapReduce 应用：TF-IDF 分布式实现---原理与hadoop-weibo推送广告一样
+https://blog.csdn.net/lemon_tree12138/article/details/51747801
+2)
+weibo推送广告
+http://www.cnblogs.com/wenbronk/p/7309515.html
+20.
+用户轨迹
+
+21.
+1)
+矩阵乘法的MapReduce实现
+http://www.cnblogs.com/baoliyan/p/6258875.html
+2)
+基于hadoop的矩阵乘法(学习笔记)
+https://blog.csdn.net/XX_123_1_RJ/article/details/44753677
+22.
+
